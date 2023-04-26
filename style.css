@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte1: 'Imbue', serif;
+}
+
+main {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painters_box {
+    width: 33.3vw;
+    height: 100vh;
+    border-radius: 10px;
+    transition: 0.5s;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-shadow: inset 0px 0px 15px 5px black;
+}
+
+.select {
+    width: 100vw;
+}
+
+.deselect {
+    width: 0px;
+}
+
+.name_container {
+    width: 240px;
+    height: fit-content;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.300);
+    border-radius: 10px;
+    color: white;
+}
+
+.name_container p {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.9em;
+}
+
+#vanGogh_box  {
+    background-image: url('images/vanGoghPortrait.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#monet_box {
+    background-image: url('images/monetPortrait.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#rembrandt_box {
+    background-image: url('images/rembrandtPortrait.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
