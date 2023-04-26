@@ -38,7 +38,7 @@ main {
 }
 
 .name_container {
-    width: 240px;
+    width: fit-content;
     height: fit-content;
     position: relative;
     top: 80%;
@@ -52,7 +52,7 @@ main {
 .name_container p {
     text-align: center;
     font-weight: 900;
-    font-size: 1.9em;
+    font-size: 2em;
 }
 
 #vanGogh_box  {
