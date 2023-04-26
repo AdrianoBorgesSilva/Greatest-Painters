@@ -27,6 +27,9 @@ main {
     overflow-y: hidden;
     overflow-x: hidden;
     box-shadow: inset 0px 0px 15px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .select {
@@ -41,8 +44,10 @@ main {
     width: 50px;
     height: fit-content;
     word-wrap: break-word;
-    background-color: rgba(0, 0, 0, 0.300);
+    background-color: rgba(0, 0, 0);
     color: white;
+    position: relative;
+    left: -40%;
 }
 
 .name_container p {
