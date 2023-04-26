@@ -1,7 +1,6 @@
 const vanGogh = document.getElementById('vanGogh_box')
 const monet = document.getElementById('monet_box')
 const rembrandt = document.getElementById('rembrandt_box')
-const rbtn_gogh = document.getElementById('rbtn_gogh')
 
 vanGogh.addEventListener('click', ()=>{
     vanGogh.classList.toggle('select')
@@ -18,6 +17,7 @@ rembrandt.addEventListener('click', ()=>{
     monet.classList.toggle('deselect')
     rembrandt.classList.toggle('select')
 })
+
 
 
 

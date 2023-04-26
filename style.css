@@ -38,21 +38,17 @@ main {
 }
 
 .name_container {
-    width: fit-content;
+    width: 50px;
     height: fit-content;
-    position: relative;
-    top: 80%;
-    left: 50%;
-    transform: translateX(-50%);
+    word-wrap: break-word;
     background-color: rgba(0, 0, 0, 0.300);
-    border-radius: 10px;
     color: white;
 }
 
 .name_container p {
     text-align: center;
     font-weight: 900;
-    font-size: 2em;
+    font-size: 50px;
 }
 
 #vanGogh_box  {
