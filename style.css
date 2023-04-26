@@ -23,7 +23,6 @@ main {
 .painters_box {
     width: 33.3vw;
     height: 100vh;
-    border-radius: 10px;
     transition: 0.5s;
     overflow-y: hidden;
     overflow-x: hidden;
