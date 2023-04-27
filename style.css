@@ -25,9 +25,6 @@ main {
     height: 100vh;
     transition: 0.5s;
     box-shadow: inset 0px 0px 15px 5px black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
 }
 
@@ -43,23 +40,23 @@ main {
     width: 95%;
     height: 30%;
     border-radius: 20px 20px 0 0;
-    position: absolute;
-    top: 100%;
     border: 5px solid white;
     background-color: rgba(0, 0, 0, 0.300);
-    overflow: hidden;
-    display: none;
+    margin: auto;
+    position: relative;
+    top: 100%;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .name_container {
-    width: fit-content;
+    width: 90%;
     height: fit-content;
-    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.500);
     color: white;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .name_container p {
@@ -78,14 +75,9 @@ main {
     font-family: var(--fonte1);
     font-weight: 900;
     border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .show_info {
-    display: block;
     top: 70%;
 }
 
