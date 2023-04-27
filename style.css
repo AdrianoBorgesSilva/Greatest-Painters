@@ -55,8 +55,9 @@ main {
 .name_container {
     width: 90%;
     height: fit-content;
-    background-color: rgba(0, 0, 0, 0.500);
     color: white;
+    position: relative;
+    top: -20%;
 }
 
 .name_container p {
@@ -74,7 +75,7 @@ main {
     font-size: 3em;
     font-family: var(--fonte1);
     font-weight: 900;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 .show_info {
