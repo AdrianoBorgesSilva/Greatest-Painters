@@ -1,107 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Imbue:wght@400;700;900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --fonte1: 'Imbue', serif;
-}
 
 
-main {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.painters_box {
-    width: 33.3vw;
-    height: 100vh;
-    transition: 0.5s;
-    box-shadow: inset 0px 0px 15px 5px black;
-    overflow: hidden;
-}
-
-.select {
-    width: 100vw;
-}
-
-.deselect {
-    width: 0px;
-}
-
-.info_container {
-    width: 95%;
-    height: 30%;
-    border-radius: 20px 20px 0 0;
-    border: 5px solid white;
-    background-color: rgba(0, 0, 0, 0.300);
-    margin: auto;
-    position: relative;
-    top: 100%;
-    transition: 0.5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.name_container {
-    width: 90%;
-    height: fit-content;
-    color: white;
-    position: relative;
-    top: -20%;
-}
-
-.name_container p {
-    text-align: center;
-    font-weight: 900;
-    font-size: 50px;
-}
-
-.bioBtn {
-    width: 80%;
-    height: 15%;
-    border: 1px solid white;
-    background-color: transparent;
-    color: white;
-    font-size: 3em;
-    font-family: var(--fonte1);
-    font-weight: 900;
-    border-radius: 25px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.show_info {
-    top: 70%;
-}
-
-#vanGogh_box  {
-    background-image: url('images/vanGoghPortrait.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-
-#monet_box {
-    background-image: url('images/monetPortrait.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-
-#rembrandt_box {
-    background-image: url('images/rembrandtPortrait.jpg');
-    background-position: center center;
-    background-size: cover;
+@media screen and (width: 720px) and (height: 1600px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    :root {
+        --fonte1: 'Imbue', serif;
+    }
+    
+    
+    main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .painters_box {
+        width: 33.3vw;
+        height: 100vh;
+        transition: 0.5s;
+        box-shadow: inset 0px 0px 15px 5px black;
+        overflow: hidden;
+    }
+    
+    .select {
+        width: 100vw;
+    }
+    
+    .deselect {
+        width: 0px;
+    }
+    
+    .info_container {
+        width: 95%;
+        height: 30%;
+        border-radius: 20px 20px 0 0;
+        border: 5px solid white;
+        background-color: rgba(0, 0, 0, 0.300);
+        margin: auto;
+        position: relative;
+        top: 100%;
+        transition: 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .name_container {
+        width: 90%;
+        height: fit-content;
+        color: white;
+        position: relative;
+        top: -20%;
+    }
+    
+    .name_container p {
+        text-align: center;
+        font-weight: 900;
+        font-size: 50px;
+    }
+    
+    .bioBtn {
+        width: 80%;
+        height: 15%;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        font-size: 3em;
+        font-family: var(--fonte1);
+        font-weight: 900;
+        border-radius: 25px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .show_info {
+        top: 70%;
+    }
+    
+    #vanGogh_box  {
+        background-image: url('images/vanGoghPortrait.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    #monet_box {
+        background-image: url('images/monetPortrait.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    #rembrandt_box {
+        background-image: url('images/rembrandtPortrait.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
 }
 
 
