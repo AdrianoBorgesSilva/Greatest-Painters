@@ -36,6 +36,9 @@ main {
     word-wrap: break-word;
     text-align: center;
     color: white;
+    position: relative;
+    top: 1%;
+    left: 3%;
 }
 
 #lastName {
@@ -46,11 +49,27 @@ main {
     text-align: center;
     color: white;
     position: relative;
-    top: ;
+    top: 23%;
     left: 85%;
 }
 
-#section2
+#backContainer {
+    position: relative;
+    top: 17%;
+}
 
+#back {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url('../images/leftArrow.png');
+    background-position: center center;
+    background-size: cover;
+}
 
+#section2{
+    width: 100vw;
+    height: 100vh;
+}
 }
