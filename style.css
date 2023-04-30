@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Imbue:wght@400;700;900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    --fonte1: 'Imbue', serif;
+}
 
 
 
 @media screen and (width: 720px) and (height: 1600px){
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    :root {
-        --fonte1: 'Imbue', serif;
-    }
-    
-    
+   
     main {
         width: 100vw;
         height: 100vh;

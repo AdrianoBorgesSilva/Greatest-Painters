@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@400;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte1: 'Imbue', serif;
+}
+
+@media screen and (width: 720px) and (height: 1600px){
+
+#section1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/vanGoghPortrait.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#name {
+    color: white;
+    
+}
+
+#lastName {
+    color: white;
+}
+
+
+}
