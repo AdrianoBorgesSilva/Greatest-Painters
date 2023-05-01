@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@400;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte1: 'Imbue', serif;
+}
+
+@media screen and (width: 720px) and (height: 1600px){
+
+section {
+    overflow: hidden;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+#section1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/vanGoghPortrait.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+#date {
+    width: 70px;
+    font-size: 75px;
+    font-weight: 900;
+    word-wrap: break-word;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 1%;
+    left: 85%;
+}
+
+#name {
+    width: 75px;
+    font-size: 75px;
+    font-weight: 900;
+    word-wrap: break-word;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -47%;
+    left: 3%;
+}
+
+#lastName {
+    width: 75px;
+    font-size: 75px;
+    word-wrap: break-word;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -25%;
+    left: 85%;
+}
+
+#backContainer {
+    position: relative;
+    top: -31%;
+    left: 1%;
+}
+
+#back {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url('../images/leftArrow.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+#section2{
+    width: 100vw;
+    height: 100vh;
+}
+}
