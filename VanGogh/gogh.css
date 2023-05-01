@@ -29,6 +29,7 @@ main {
     background-image: url('../images/vanGoghPortrait.jpg');
     background-position: center center;
     background-size: cover;
+    border-radius: 0 0 15px 15px;
 }
 
 #date {
@@ -88,6 +89,24 @@ main {
 
 #section2{
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
+}
+
+.textContainer {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    background-color: aqua;
+}
+
+#quote{
+    text-align: center;
+    font-size: 4em;
+    font-family: var(--fonte2);
+    
+}
+
+#text {
+   
 }
 }
