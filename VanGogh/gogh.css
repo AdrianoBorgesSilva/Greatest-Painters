@@ -90,6 +90,7 @@ main {
 #section2{
     width: 100vw;
     height: 200vh;
+    background-color: brown;
 }
 
 .textContainer {
@@ -112,4 +113,12 @@ main {
    text-indent: 10px;
    text-align: justify;
 }
+
+#section3 {
+    width: 100vw;
+    height: 30vh;
+    background-color: blueviolet;
+}
+
+
 }
