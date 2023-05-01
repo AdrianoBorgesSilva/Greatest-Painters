@@ -24,7 +24,7 @@ main {
 #section1 {
     width: 100vw;
     height: 100vh;
-    background-image: url('../images/vanGoghPortrait.jpg');
+    background-image: url('../images/monetPortrait.jpg');
     background-position: center center;
     background-size: cover;
 }
