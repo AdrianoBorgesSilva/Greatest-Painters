@@ -117,7 +117,26 @@ main {
 #section3 {
     width: 100vw;
     height: 30vh;
-    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/skeleton.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#section3 p {
+    font-family: var(--fonte1);
+    font-size: 75px;
+    color: white;
+    font-weight: 700;
+}
+
+#section4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: chocolate;
 }
 
 
