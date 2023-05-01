@@ -39,6 +39,7 @@ main {
     position: relative;
     top: 1%;
     left: 85%;
+    text-shadow: 2px 2px black;
 }
 
 #name {
@@ -51,6 +52,7 @@ main {
     position: relative;
     top: -47%;
     left: 3%;
+    text-shadow: 2px 2px black;
 }
 
 #lastName {
@@ -61,13 +63,14 @@ main {
     text-align: center;
     color: white;
     position: relative;
-    top: -25%;
+    top: -10%;
     left: 85%;
+    text-shadow: 2px 2px black;
 }
 
 #backContainer {
     position: relative;
-    top: -31%;
+    top: -15%;
     left: 1%;
 }
 
