@@ -89,12 +89,12 @@ main {
 
 #section2{
     width: 100vw;
-    height: 200vh;
+    height: 190vh;
 }
 
 .textContainer {
     width: 90%;
-    height: 95%;
+    height: 100%;
     margin: auto;
     overflow: hidden;
 }
