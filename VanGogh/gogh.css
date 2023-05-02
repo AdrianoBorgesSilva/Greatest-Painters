@@ -99,16 +99,6 @@ main {
     overflow: hidden;
 }
 
-.textContainer img {
-    width: 584px;
-    position: relative;
-    top: 7%;
-    left: 5%;
-    border-radius: 15px;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-
 #quote{
     text-align: center;
     font-size: 4em;
@@ -117,13 +107,23 @@ main {
     top: 5%;
 }
 
-.text {
-   font-family: var(--fonte1);
-   font-size: 2.7em;
-   text-indent: 10px;
-   text-align: justify;
-   position: relative;
-   top: 7%;
+.textContainer p {
+    font-family: var(--fonte1);
+    font-size: 2.7em;
+    text-indent: 10px;
+    text-align: justify;
+    position: relative;
+    top: 7%;
+ }
+
+.textContainer img {
+    width: 584px;
+    position: relative;
+    top: 7%;
+    left: 5%;
+    border-radius: 15px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 #section3 {
@@ -177,6 +177,5 @@ main {
     margin-top: 5vh;
     margin-bottom: 5vh;
 }
-
 
 }
