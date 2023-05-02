@@ -98,6 +98,7 @@ main {
     height: 95%;
     margin: auto;
     overflow: hidden;
+    background-color: aquamarine;
     
 }
 
@@ -150,7 +151,7 @@ main {
 
 #section4 {
     width: 100vw;
-    height: 100vh;
+    height: 300vh;
     background-color: chocolate;
 }
 
