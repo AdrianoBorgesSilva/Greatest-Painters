@@ -148,12 +148,12 @@ main {
 
 #section4 {
     width: 100vw;
-    height: 500vh;
+    height: 380vh;
 }
 
 .textContainerSec4 {
     width: 90%;
-    height: 95%;
+    height: 100%;
     margin: auto;
     overflow: hidden;
 }
